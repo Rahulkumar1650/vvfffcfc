@@ -1,0 +1,152 @@
+                                            * {
+                                                padding: 0px;
+                                                margin: 0px;
+                                            }
+                                            
+                                            header {
+                                                background-color: lightblue;
+                                                text-transform: uppercase;
+                                                height: 85px;
+                                            }
+                                            
+                                            li {
+                                                float: right;
+                                                padding: 25px;
+                                                letter-spacing: 2px;
+                                            }
+                                            
+                                            ul li {
+                                                display: inline-block;
+                                            }
+                                            
+                                            ul li a {
+                                                text-decoration: none;
+                                                padding: 5px 20px;
+                                                border: 1px solid whitesmoke;
+                                                transition: 0.6s linear;
+                                            }
+                                            
+                                            ul li a:hover {
+                                                background-color: black;
+                                                color: yellow;
+                                            }
+                                            
+                                            .contact-from {
+                                                padding: 5rem 0;
+                                                background-color: whitesmoke;
+                                            }
+                                            
+                                            .from-wrapper::after {
+                                                content: '';
+                                                display: block;
+                                                clear: both;
+                                            }
+                                            
+                                            .compney-addres {
+                                                float: left;
+                                                width: 49%;
+                                                float: left;
+                                            }
+                                            
+                                            .from-wrapper .compney-addres {
+                                                width: 49%;
+                                                float: left;
+                                                background: #fff;
+                                                height: 750px;
+                                            }
+                                            
+                                            .container {
+                                                margin: 4rem 4rem;
+                                            }
+                                            
+                                            .addres-group I {
+                                                color: red;
+                                            }
+                                            
+                                            .from-wrapper .compney-addres i {
+                                                display: inline-block;
+                                                margin-right: 1rem;
+                                            }
+                                            
+                                            .from-wrapper .compney-addres h2 {
+                                                display: inline-block;
+                                                text-transform: uppercase;
+                                            }
+                                            
+                                            .from-wrapper .compney-addres p {
+                                                text-transform: uppercase;
+                                                color: red;
+                                            }
+                                            
+                                            .from-wrapper .compney-addres img {
+                                                width: 100%;
+                                                box-shadow: 4px 4px 2px brown;
+                                            }
+                                            
+                                            .from {
+                                                text-transform: uppercase;
+                                                height: 750px;
+                                            }
+                                            
+                                            .from h1 {
+                                                text-align: center;
+                                                border-bottom: 2px solid pink;
+                                            }
+                                            
+                                            .from-wrapper .from {
+                                                background: #fff;
+                                                width: 49%;
+                                                float: right;
+                                            }
+                                            
+                                            .from-wrapper label {
+                                                display: block;
+                                            }
+                                            
+                                            .from-wrapper .from input {
+                                                padding: 0.5rem;
+                                                width: 97%;
+                                            }
+                                            
+                                            .from-wrapper .from label::after {
+                                                content: '*';
+                                                color: blue;
+                                            }
+                                            
+                                            .from-wrapper textarea {
+                                                width: 95%;
+                                                height: 250 px;
+                                                padding: 1rem;
+                                            }
+                                            
+                                            .from-btn {
+                                                display: block;
+                                                margin: 0;
+                                                padding: 0.5em .3em;
+                                                font-size: 1rem;
+                                                text-transform: uppercase;
+                                                background: #e63946;
+                                                text-align: center;
+                                                color: #fff;
+                                                outline: none;
+                                                border: none;
+                                                cursor: pointer;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            @media(max-width:700px) {
+                                                html {
+                                                    font-size: 50%;
+                                                }
+                                                .main {
+                                                    float: none;
+                                                    display: block;
+                                                    width: 100%;
+                                                    text-align: center;
+                                                }
+                                                .compney-addres,
+                                                from {
+                                                    float: left;
+                                                    border-bottom: none;
+                                                }
+                                            }

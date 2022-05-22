@@ -1,0 +1,170 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: lightblue;
+            text-transform: uppercase;
+            height: 85px;
+        }
+        
+        li {
+            float: right;
+            padding: 25px;
+            letter-spacing: 2px;
+        }
+        
+        ul li {
+            display: inline-block;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            padding: 5px 20px;
+            border: 1px solid whitesmoke;
+            transition: 0.6s linear;
+        }
+        
+        ul li a:hover {
+            background-color: black;
+            color: yellow;
+        }
+        
+        .M {
+            text-transform: uppercase;
+            padding: 5rem;
+        }
+        
+        .box {
+            float: left;
+            width: 30.333333%;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid yellow;
+            margin-bottom: 100px;
+            box-shadow: 2px 4px 2px 2px pink;
+        }
+        
+        .bom-1 {
+            background-color: whitesmoke;
+            color: black;
+        }
+        
+        .bom-3 {
+            background-color: whitesmoke;
+            color: black;
+        }
+        
+        h2 {
+            text-transform: uppercase;
+            text-align: left;
+            margin-left: 220px;
+            padding: 20px;
+            border-bottom: 2px solid black;
+            box-shadow: 2px 4px 2px 2px yellow;
+        }
+        
+        .box img {
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            padding: 12px;
+            box-shadow: 2px 4px 2px 2px pink;
+            display: inline-block;
+            transition: all 0.6s linear;
+        }
+        
+        .box img:hover {
+            background-color: black;
+            color: blueviolet;
+        }
+        
+        marquee {
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding: 25px;
+            border: 2px solid red;
+            margin-top: 15px;
+            transition: all 0.6s linear;
+            box-shadow: 2px 4px 2px 2px red;
+        }
+        
+        marquee:hover {
+            background-color: pink;
+            color: brown;
+        }
+        
+        .dm {
+            margin-bottom: 100px;
+        }
+        
+        .rohit {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .rohit I {
+            margin: 25px;
+            transition: all 0.3s linear;
+        }
+        
+        .rohit a {
+            height: 100px;
+            background-color: lightblue;
+            box-shadow: 1px 4px 2px 2px yellow;
+            color: blue;
+            border-radius: 50px;
+            margin: 5px;
+        }
+        
+        .rohit a:hover i {
+            transform: scale(1.4);
+        }
+        
+        @media(max-width:700px) {
+            html {
+                font-size: 9px;
+            }
+            header {
+                float: none;
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+            h2 {
+                float: none;
+                display: block;
+            }
+            marquee {
+                float: none;
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+            .box {
+                float: none;
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                border: 2px solid yellow;
+                margin-bottom: 100px;
+                box-shadow: 2px 4px 2px 2px pink;
+            }
+            .rohit I {
+                float: none;
+                display: block;
+                width: 50%;
+                text-align: center;
+                height: 50%;
+            }
+            .rohit a {
+                float: none;
+                display: block;
+                width: 50%;
+                text-align: center;
+                height: 50%;
+            }
+        }
